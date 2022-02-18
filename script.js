@@ -28,6 +28,6 @@ function scrollFunction() {
 }
 /* Link to checkout*/
 function checkOut() {
-  window.location.href="checkOutPageMain.html";
+  window.open("checkOutPageMain.html", '_blank').focus();
 }
 
