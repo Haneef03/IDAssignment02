@@ -17,6 +17,10 @@ function myFunction() {
     window.location.href="ludicrousBuild.html";
   }
   
+  function checkOut() {
+    window.open("checkOutPageMain.html", '_blank').focus();
+  }
+  
   window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
