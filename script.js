@@ -9,16 +9,16 @@ function myFunction() {
     }
   }
 
+  function checkOut() {
+    window.open("checkOutPageMain.html", '_blank').focus();
+  }
+  
   /* Link to variants*/
   function exploreBudget() {
     window.location.href="budgetBuild.html";
   }
   function exploreLudicrous() {
     window.location.href="ludicrousBuild.html";
-  }
-  
-  function checkOut() {
-    window.open("checkOutPageMain.html", '_blank').focus();
   }
   
   window.onscroll = function() {scrollFunction()};
@@ -32,15 +32,15 @@ function scrollFunction() {
 }
 
 function Prize1() {
-  return "CODE10:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
+  return "You won a 10% off coupon! CODE10:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
 }
 
 function Prize2() {
-  return "CODE20:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
+  return "You won a 20% off coupon! CODE20:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
 }
 
 function Prize3() {
-  return "CODE30:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
+  return "You won a 30% off coupon! CODE30:"+ Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)+Math.floor(Math.random() * 1000)
 }
 
 function hidediv(){
@@ -49,22 +49,24 @@ function hidediv(){
 setTimeout(hidediv(), 5000)
 
 function luckyDraw() {
+  
   randNum = Math.floor(Math.random() * 1000)
   if (randNum >=0 && randNum <= 500) {
     document.querySelector('h1').innerHTML =  Prize1() /*10% voucher*/
+    setTimeout(function() {
+      document.querySelector('h1').innerHTML = ""}, 10000);
   } 
   else if (randNum >500 && randNum <= 800) {
     document.querySelector('h1').innerHTML = Prize2() /*20% voucher*/
+    setTimeout(function() {
+      document.querySelector('h1').innerHTML = ""}, 10000);
   }
   else if (randNum >800 && randNum <= 1000) {
     document.querySelector('h1').innerHTML = Prize3() /*30% voucher*/
+    setTimeout(function() {
+      document.querySelector('h1').innerHTML = ""}, 10000);
   }
 }
 
-var animation = bodymovin.loadanimatiion({
-  container: document.getElementById('anim'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'https://assets2.lottiefiles.com/packages/lf20_reqivhma.json'
-})
+
+
