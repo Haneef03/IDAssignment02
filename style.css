@@ -47,8 +47,8 @@
   
   /* Style the active link (or home/logo) */
   .topnav a.active {
-    background-color: #0D2C54;
-    color: #FFF8F0;
+    background-color: #44d62c;
+    color: black;
     text-align: center;
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-family: "Poppins";
@@ -152,7 +152,7 @@
    cursor: pointer;
    color: #FEFFFE;
    transition: 0.6s;
-   background-image: linear-gradient(to left, #4BB3FD, #00487C);
+   background-image: linear-gradient(to left, #34e89e, #048A81);
    width:130px;
    font-size:18px;
  }
@@ -252,7 +252,7 @@
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   width: 130px;
   font-weight: 600;
 }
@@ -321,7 +321,7 @@ table td{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   width: 130px;
   font-weight: 600;
 }
@@ -373,7 +373,7 @@ table td{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   width: 130px;
   font-weight: 600;
 }
@@ -389,7 +389,7 @@ table td{
   z-index: 1;
   top: 80px;
   left: 20px;
-  background-color: #EFF7F6;
+  background-color: #1E1E24;
   overflow-x: hidden;
   padding-top: 10px;
 }
@@ -398,13 +398,13 @@ table td{
   padding: 20px 20px 20px 36px;
   text-decoration: none;
   font-size: 20px;
-  color: #00487C;
+  color: #048A81;
   display: block;
   transition: 0.3s;
 }
 
 .sidecar a:hover{
-  color: #4BB3FD;
+  color: #06D6A0;
 }
 /*MotherBoards*/
 partsMain{
@@ -458,7 +458,7 @@ partsMain h2{
  cursor: pointer;
  color:#FEFFFE;
  transition: 0.6s;
- background-image: linear-gradient(to left, #4BB3FD, #00487C);
+ background-image: linear-gradient(to left, #34e89e, #048A81);
  margin-top: 2em;
  width: 92px;
 }
@@ -508,7 +508,7 @@ partsMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #004871);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -558,7 +558,7 @@ partsMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -608,7 +608,7 @@ partsMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -659,7 +659,7 @@ partsMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -737,7 +737,7 @@ disMain{
  cursor: pointer;
  color:#FEFFFE;
  transition: 0.6s;
- background-image: linear-gradient(to left, #4BB3FD, #00487C);
+ background-image: linear-gradient(to left, #34e89e, #048A81);
  margin-top: 2em;
  font-weight: 590;
 }
@@ -801,7 +801,7 @@ accMain h2{
  cursor: pointer;
  color:#FEFFFE;
  transition: 0.6s;
- background-image: linear-gradient(to left, #4BB3FD, #00487C);
+ background-image: linear-gradient(to left, #34e89e, #048A81);
  margin-top: 2em;
  width: 92px;
 }
@@ -851,7 +851,7 @@ accMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -900,7 +900,7 @@ accMain h2{
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #4BB3FD, #00487C);
+  background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
   width: 92px;
  }
@@ -954,7 +954,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #4BB3FD;
+	background-color: #06D6A0;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -1032,6 +1032,30 @@ ul{
   border-radius: 18px;
 }
 
+#lkd-wrapper{
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+#lkd-wrapper button{
+  border: none;
+  padding: 1em;
+  font-family: "montserrat", sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
+  width:130px;
+  font-size:18px;
+}
 
+#lkd-wrapper button:hover{
+  background-position: right;
+  color:#02020B;
+}
 
-
+#anim{
+  max-width: 80px;
+  margin: 0 auto;
+}
