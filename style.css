@@ -1033,6 +1033,8 @@ ul{
 }
 
 /*Checkout Part*/
+
+/*
 *{
   margin: 0;
   padding: 0;
@@ -1069,6 +1071,7 @@ header{
   font-size: 26px;
   font-weight: 800;
 }
+*/
 
 .menu-container{
   display: flex;
