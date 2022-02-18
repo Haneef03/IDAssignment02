@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIEGO</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
     <script src="script.js"></script>
     
     <!--social media icons -->
@@ -22,6 +22,7 @@
       <a href="parts.html">Parts</a>
       <a href="displays.html">Displays</a>
       <a href="accessories.html">Accessories</a>
+      <a href="luckyDraw.html">Lucky Draw</a>
     </div>
 
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -31,9 +32,12 @@
     </a> 
   </div>
 <body>
+  <h2 style = "text-align: center;font-size: 30px;">Try your luck in this lucky draw!</h2>
   <section id ="lkd-wrapper">
-    <div id ="anim"></div>
-    <h1></h1>
+    <div id ="anim">
+      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_reqivhma.json" id = "svg" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </div>
+    <h1 id = "winnercode"></h1>
     <button onclick="luckyDraw()">Spin</button>
   </section>
 </body>
