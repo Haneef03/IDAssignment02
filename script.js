@@ -26,3 +26,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-170px";
   }
 }
+/* Link to checkout*/
+function checkOut() {
+  window.location.href="checkOutPageMain.html";
+}
+
