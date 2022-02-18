@@ -12,7 +12,8 @@ function myFunction() {
   function checkOut() {
     window.open("checkOutPageMain.html", '_blank').focus();
   }
-  
+
+
   /* Link to variants*/
   function exploreBudget() {
     window.location.href="budgetBuild.html";
